@@ -19,18 +19,27 @@
 body {
   background-color: #444;
   font-family: 'Roboto';
+  color: #222;
 }
 .postit {
   width: 250px;
   height: 400px;
   padding: 10px;
   position: relative;
+  box-shadow: 5px 5px 10px 5px #111;
 }
 .white {
   background-color: #fff;
+  position: relative;
+  left: 70px;
+  top: 200px;
 }
 .yellow {
   background-color: palegoldenrod;
+  z-index: 1;
+  position: relative;
+  left: 280px;
+  bottom: 260px;
 }
 .flexcontainer {
   display: flex;
@@ -54,7 +63,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #222;
 }
 footer {
   position: absolute;
@@ -85,7 +94,7 @@ footer {
    width: 10px;
    height: 5px;
    float: left;
-   background-color: black;
+   background-color: #222;
 }
 .left {
   float: left;
@@ -98,5 +107,4 @@ footer {
 }
 hr {
   width: 100%;
-  color: black;
 }
