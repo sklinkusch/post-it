@@ -1,8 +1,10 @@
+/* Remove browser settings */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* Define Google Font */
 /* roboto-regular - latin */
 @font-face {
   font-family: 'Roboto';
@@ -16,23 +18,27 @@
        url('../fonts/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
 }
+/* Colors and Fonts */
 body {
   background-color: #444;
   font-family: 'Roboto';
   color: #222;
 }
+/* General settings for the post-its */
 .postit {
   width: 250px;
   height: 400px;
   padding: 10px;
   box-shadow: 5px 5px 10px 5px #111;
 }
+/* Settings for the white post-it */
 .white {
   background-color: #fff;
   position: relative;
   left: 70px;
   top: 200px;
 }
+/* Settings for the yellow post-it */
 .yellow {
   background-color: palegoldenrod;
   z-index: 1;
@@ -40,21 +46,14 @@ body {
   left: 280px;
   bottom: 260px;
 }
+/* Some classes for the first line */
 .flexcontainer {
   display: flex;
-}
-.spacebetween {
-  justify-content: space-between;
 }
 .flexstart {
   justify-content: flex-start;
 }
-.small {
-  font-size: 10pt;
-}
-.large {
-  font-size: 16pt;
-}
+/* The circle in the first line */
 .circlecontainer {
   flex: 0 0 15px;
 }
@@ -64,26 +63,29 @@ body {
   border-radius: 50%;
   background-color: #222;
 }
-footer {
-  position: absolute;
-  bottom: 10px;
+/* Some classes for font sizes and stylings*/
+.small {
+  font-size: 10pt;
 }
-.text {
-  position: relative;
-  top: 150px;
+.large {
+  font-size: 16pt;
 }
-.timespan {
-  position: relative;
-  top: 130px;
+.bold {
+  font-weight: bold;
 }
+/* The time of the appointment */
 .time {
   position: relative;
   top: 110px;
   float: left;
 }
+/* The timeline and the half circle on it */
 .timeline {
   position: relative;
   top: 120px;
+}
+hr {
+  width: 100%;
 }
 .timeline::before {
   content: "";
@@ -95,6 +97,22 @@ footer {
    float: left;
    background-color: #222;
 }
+/* The time-spans */
+.timespan {
+  position: relative;
+  top: 130px;
+}
+/* The main text */
+.text {
+  position: relative;
+  top: 150px;
+}
+/* The footer with the place */
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+/* A bit about floats */
 .left {
   float: left;
 }
@@ -103,10 +121,4 @@ footer {
 }
 .clearfix {
   clear: both;
-}
-hr {
-  width: 100%;
-}
-.bold {
-  font-weight: bold;
 }
