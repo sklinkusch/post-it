@@ -23,10 +23,35 @@ body {
 .postit {
   width: 250px;
   height: 400px;
+  padding: 10px;
 }
 .white {
   background-color: #fff;
 }
 .yellow {
-  background-color: yellow;
+  background-color: palegoldenrod;
+}
+.flexcontainer {
+  display: flex;
+}
+.spacebetween {
+  justify-content: space-between;
+}
+.flexstart {
+  justify-content: flex-start;
+}
+.small {
+  font-size: 10pt;
+}
+.large {
+  font-size: 16pt;
+}
+.circlecontainer {
+  flex: 0 0 25px;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
 }
