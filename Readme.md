@@ -1,4 +1,17 @@
 # Post-it exercise
+
+This webpage was created by Stefan Klinkusch at Digital Career Institute in Berlin, Germany. It features two post-it notes on
+a dark background.
+
+## Techniques
+
+- see Topics
+
+## Screenshot
+
+![Screenshot](./Screenshot.png)
+
+## Tasks
 You will create a page that rappresent a desk with 2 post-it on it
 
 ### Topics
